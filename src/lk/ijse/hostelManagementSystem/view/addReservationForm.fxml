@@ -13,9 +13,9 @@
 
 <AnchorPane prefHeight="676.0" prefWidth="847.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelManagementSystem.controller.AddReservationFormController">
    <children>
-      <Label layoutX="274.0" layoutY="20.0" text="Add Reservation" textFill="#2748da">
+      <Label layoutX="235.0" layoutY="19.0" text="Add Reservation" textFill="ORANGE">
          <font>
-            <Font name="Bell MT Bold" size="41.0" />
+            <Font name="System Bold" size="49.0" />
          </font>
       </Label>
       <JFXComboBox fx:id="cmbStudentId" labelFloat="true" layoutX="28.0" layoutY="162.0" onAction="#selectStudentOnAction" prefHeight="31.0" prefWidth="170.0" promptText="Student Id" />
@@ -40,13 +40,13 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="290.0" layoutY="105.0" text="Room Details" textFill="#20ab47">
+      <Label layoutX="290.0" layoutY="105.0" text="Room Details" textFill="#4920ab">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
       <Separator layoutX="281.0" layoutY="128.0" prefHeight="0.0" prefWidth="125.0" style="-fx-background-color: #20ab47;" />
-      <Label layoutX="25.0" layoutY="104.0" text="Student Details" textFill="#20ab47">
+      <Label layoutX="25.0" layoutY="104.0" text="Student Details" textFill="#4920ab">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
@@ -120,7 +120,7 @@
             <TableColumn fx:id="colDate" prefWidth="97.0" text="Date" />
         </columns>
       </TableView>
-      <JFXButton buttonType="RAISED" layoutX="402.0" layoutY="391.0" onAction="#reserveOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: #6FEEFF; -fx-background-radius: 6;" text="Reserve">
+      <JFXButton buttonType="RAISED" layoutX="402.0" layoutY="391.0" onAction="#reserveOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 15; -fx-background-radius: 15;" text="Reserve">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -128,7 +128,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="504.0" layoutY="391.0" onAction="#updateOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: #2ecc71; -fx-background-radius: 6;" text="Update">
+      <JFXButton buttonType="RAISED" layoutX="504.0" layoutY="391.0" onAction="#updateOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 15; -fx-background-radius: 15;" text="Update">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -136,7 +136,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="604.0" layoutY="391.0" onAction="#deleteOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: #ea2323; -fx-background-radius: 6;" text="Delete">
+      <JFXButton buttonType="RAISED" layoutX="604.0" layoutY="391.0" onAction="#deleteOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 15; -fx-background-radius: 15;" text="Delete">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -144,7 +144,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="705.0" layoutY="391.0" onAction="#clearOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: #EAF55C; -fx-background-radius: 6;" text="Clear">
+      <JFXButton buttonType="RAISED" layoutX="705.0" layoutY="391.0" onAction="#clearOnAction" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 15; -fx-background-radius: 15;" text="Clear">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -152,7 +152,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Label layoutX="694.0" layoutY="69.0" text="Date : " textFill="#31d334">
+      <Label layoutX="694.0" layoutY="69.0" text="Date : " textFill="#4920ab">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -162,7 +162,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="694.0" layoutY="108.0" text="Time : " textFill="#31d334">
+      <Label layoutX="694.0" layoutY="108.0" text="Time : " textFill="#4920ab">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
